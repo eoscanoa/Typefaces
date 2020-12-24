@@ -1,0 +1,101 @@
+/*Jquery*/
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+/*Jquery*/
+
+/*Carousel*/
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/*Carousel*/
+
+body {margin: 0; font-family: 'Oxygen',  sans-serif;}
+header {background:#342067; padding: 20px; text-align: center;}
+h2 {font-size: 25px; font-family: 'Oxygen'; font-weight: bold; }
+h4 {font-size: 20px; font-family: 'Oxygen'; font-weight: normal;}
+h5 {font-size: 20px; font-family: 'Oxygen'; font-weight: normal;}
+
+ul,li {list-style:none; margin:0; padding:0;}
+.container {max-width: 75em; margin: 0 auto; position: relative; padding:0 2%;}
+.slide img {width:100%;} 
+.rslides li { 
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+section { padding-top: 3em;
+  position: relative;}
+  .clear {clear: both;}
+  
+    .agregadas {padding-top: 4em;}
+    .agregadas img {width: 31.9%; margin-right: 2%;
+      float: left;}
+      .agregadas img:last-child {margin-right: 0}
+      .especimenes {padding-top: 4em;}
+      .especimenes img {width:100%;
+        margin-right: 2%;}
+        .especimenes li {float:left; 
+          width: 18%; 
+          margin:0 1% 2% 1%;
+          position: relative;} 
+          .especimenes a{text-decoration: none;}
+          .especimenes ul{margin:0 -1% 0 -1%;}
+          .descargar {background-image: url(../icons/descargar.svg);
+            background-repeat: no-repeat;
+            background-position: right;
+            float:right; font-size: 0.9em; text-decoration:none; 
+            color:#008DDA;
+            padding-right: 1.5em;
+            margin-top: 4px;}
+            footer {background: #E2E2E3; 
+              height: 10em; 
+              text-align: center;
+              margin-top: 6em;}
+              footer img {position: relative;
+                top: -2.2em;}
+                
+                /*mediaquerys*/
+                @media screen and (max-width: 800px){
+                  nav {float: none;
+                    background-color:#342067;
+                  }
+                  
+                  header {text-align: center; }
+                  header .container {padding: 0;}
+                  .especimenes li {width: 31.33%;} 
+                  
+                }      
+                @media screen and (max-width: 500px){
+                  nav li {display:block;}
+                  nav a {padding:1em 1em;}
+                  .especimenes li {width: 48%;} 
+                }
+                /*mediaquerys*/
+                
+                
